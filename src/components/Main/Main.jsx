@@ -16,7 +16,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="nav">
-        <p>Chatbot</p>
+        <p>Noble.</p>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
@@ -54,7 +54,7 @@ const Main = () => {
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
-              <img src={assets.chatbot_icon} alt="" />
+              <img src={assets.Noble._icon} alt="" />
               {loading ? (
                 <div className="loader">
                   <hr />
@@ -89,8 +89,8 @@ const Main = () => {
             </div>
           </div>
           <p className="bottom-info">
-            Chatbot may display inaccurate info, including about people, so
-            double-check its responses. Your privacy and Chatbot Apps
+            Noble. may display inaccurate info, including about people, so
+            double-check its responses. Your privacy and Noble. Apps
           </p>
         </div>
       </div>
