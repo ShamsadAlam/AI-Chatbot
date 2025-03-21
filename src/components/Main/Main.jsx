@@ -54,7 +54,7 @@ const Main = () => {
               <p>{recentPrompt}</p>
             </div>
             <div className="result-data">
-              <img src={assets.Noble._icon} alt="" />
+              <img src={assets.chatbot_icon} alt="" />
               {loading ? (
                 <div className="loader">
                   <hr />
